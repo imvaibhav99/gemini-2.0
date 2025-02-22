@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const apiKey = "AIzaSyBcpSTaMAlXpJtmFTBNlAAUnKsiH-t8Tr4"; // ✅ Wrapped in quotes
+const apiKey = process.env.REACT_APP_GEMINI_API_KEY;
 
 
 const genAI = new GoogleGenerativeAI(apiKey);
