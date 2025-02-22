@@ -1,0 +1,240 @@
+/* .sidebar{
+    min-height: 100vh; 
+    display: inline-flex;  
+    flex-direction: column;  
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding: 25px 15px; 
+.sidebar img{
+    width: 20px;  
+}
+.sidebar .menu{
+    display: block;
+    margin-left: 10px;
+    cursor: pointer; 
+}
+.sidebar .new-chat{
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+}
+.sidebar .recent{
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1.5s;
+}
+
+.sidebar .recent-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.sidebar .recent-entry{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #282828;
+    cursor: pointer;
+}
+.sidebar .recent-entry:hover{
+    background-color:#e2e6eb;
+
+}
+.sidebar .bottom{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .bottom-item{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.sidebar .bottom-item{
+    padding-right: 10px;
+    cursor: pointer;
+}
+@media (max-width:600px){
+    .sidebar{
+        display: none;
+    }
+} */
+ /* Sidebar */
+/*  
+.sidebar {
+    width: 60px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    transition: width 0.3s ease;
+  }
+  
+  .sidebar.expanded {
+    width: 220px;
+  }
+  
+ 
+  .sidebar.dark {
+    background-color: #252525;
+  }
+  
+  .sidebar.dark .recent-entry:hover {
+    background-color: #3a3a3a;
+  }
+  
+  .sidebar.dark .new-chat {
+    background-color: #333;
+    color: #ddd;
+  }
+  
+  .sidebar.dark .bottom-item p {
+    color: #ccc;
+  }
+  
+  
+  .top {
+    padding: 10px;
+  }
+  
+  .menu-icon {
+    width: 24px;
+    cursor: pointer;
+  }
+  
+  .new-chat {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .new-chat img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .recent-title {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #777;
+  }
+  
+  .recent-entry {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .recent-entry img {
+    width: 18px;
+    margin-right: 10px;
+  }
+  
+  .recent-entry:hover {
+    background-color: #ddd;
+  }
+  
+
+  .bottom {
+    padding: 10px;
+  }
+  
+  .bottom-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .bottom-item img {
+    width: 20px;
+    margin-right: 10px;
+  }
+   */
+
+   .sidebar {
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding: 25px 15px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .sidebar.dark {
+    background-color: #1e1e1e; /* Dark mode color */
+    color: white;
+  }
+  
+  .sidebar img {
+    width: 20px;
+  }
+  
+  .sidebar .menu {
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar .new-chat {
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .sidebar.dark .new-chat {
+    background-color: #333;
+    color: white;
+  }
+  
+  .sidebar .recent-entry {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #282828;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .sidebar .recent-entry:hover {
+    background-color: #e2e6eb;
+  }
+  
+  .sidebar.dark .recent-entry {
+    color: white;
+  }
+  
+  .sidebar.dark .recent-entry:hover {
+    background-color: #444;
+  }
+  
+  .sidebar .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  

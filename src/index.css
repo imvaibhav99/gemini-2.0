@@ -1,0 +1,119 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family:Outfit;
+}
+#root{
+  min-height: 100vh;
+  display: flex;
+  animation: fadeIn 1.5s;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+body.dark-mode {
+  background-color: #181818;
+  color: #fff;
+}
+.main.dark {
+  background: #1e1e1e;
+} */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Global Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for themes */
+}
+
+/* Full Page Root */
+#root {
+  min-height: 100vh;
+  display: flex;
+  animation: fadeIn 1.5s;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* 🌙 Full Dark Mode Support */
+body.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: #ffffff;
+}
+
+.main.dark {
+  background: #1e1e1e;
+  color: #ffffff;
+}
+
+.sidebar.dark {
+  background: #222;
+  color: white;
+}
+
+/* Sidebar Elements in Dark Mode */
+.sidebar.dark .recent-title,
+.sidebar.dark .bottom-item,
+.sidebar.dark .recent-entry {
+  color: #e0e0e0;
+}
+
+.sidebar.dark .recent-entry:hover,
+.sidebar.dark .bottom-item:hover {
+  background-color: #333;
+}
+
+/* Search Box Dark Mode */
+.search-box.dark {
+  background-color: #2a2a2a;
+  border: 1px solid #444;
+}
+
+/* Input Field Dark Mode */
+.search-box.dark input {
+  color: #fff;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Mobile Optimizations */
+@media (max-width: 600px) {
+  * {
+    font-size: 14px;
+  }
+}
