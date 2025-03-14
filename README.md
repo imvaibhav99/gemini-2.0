@@ -1,8 +1,21 @@
-# React + Vite
+A frontend-only Google Gemini 2.0 clone built with React.js to refine UI/UX skills, explore state management, and deepen CSS knowledge.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Demo: Gemini 2.0
 
-Currently, two official plugins are available:
+📌 Features
+✅ Dark Mode Support 🌙
+✅ Persistent Chat History 💬
+✅ Multiple Conversations 🔄
+✅ Markdown & Code Formatting 📝
+✅ Simulated Streaming Responses ⚡
+✅ Better Prompt Suggestions 🤖
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠 Tech Stack
+Frontend: React.js, Tailwind CSS
+State Management: Context API
+Styling: CSS 
+Deployment: Vercel
+
+This project is a UI/UX practice project and does not offer real AI functionality. It does not replicate Google’s Gemini model but simulates an AI chat experience for learning purposes.
+
+Live demo:https://gemini-2-0-2l7qfql1v-vaibhavs-projects-a56c63be.vercel.app/
